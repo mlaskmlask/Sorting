@@ -15,6 +15,7 @@ public class Main {
             System.out.print(notSortedAray[i] + " ");
         }
         System.out.println("");
+
         int[] sortedArray = new int[notSortedAray.length];
         for (int i = 0; i < sortedArray.length; i++) {
             sortedArray[i] = -1;
